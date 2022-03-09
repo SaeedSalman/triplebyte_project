@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flexbox Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+</head>
+<body>
+	<header>
+		<nav>
+			<figure class="nav-container">
+				<img src="./resources/logo.png">
+			</figure>
+
+
+			<ul class="nav-bar">
+				<div class="about">
+					<li class="about-option"><a href="#">For Companies</a></li>	
+					<li class="about-option"><a href="#">Work for Triplebyte</a></li>
+				</div>
+
+				<div class="login">
+					<li class="login-option"><a href="#">Sign Up</a></li>
+					<li class="login-option"><a href="#">Login</a></li>
+				</div>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		
+		<content class="banner">
+			<h1>Engineering Job Search, <br><span class="green-text">Refactored.</span></h1>
+			<p>Triplebyte is the job search platform that puts <span class="green-text">engineers</span> in control.</p>
+
+			<div class="banner-buttons">
+				<button class="quiz-button">Take the Quiz</button>
+				<button class="learn-button">Learn More</button>
+			</div>
+		</content>
+
+	<!-- Developer Cards -->
+		<content class="developer-types">
+			<div class="dev-cards">
+				<h1 class="developer-types-title">Choose Your Engineering Specialty</h1>
+				
+				<ul class="card-stack">		
+
+				<!-- Full Stack Card -->	
+					<li class="stack">
+						<div class="stack-title">
+							<h1>Full-Stack</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/full-stack-icon.png">
+						</div>
+						
+						<p>You're experienced with both front-end and back-end development</p>
+
+						<ul class="language-list">
+							<li class="language-stack">Python</li>
+							<li class="language-stack">HTML & CSS</li>
+							<li class="language-stack">JS</li>
+						</ul>
+
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				<!-- Front End Card -->
+					<li class="stack">
+						<div class="stack-title">
+							<h1>Front-End</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/front-end-icon.png">
+						</div>
+						
+						<p>You're experienced with creating beautiful front-end UI</p>
+
+						<ul class="language-list">
+							<li class="language-stack">React</li>
+							<li class="language-stack">HTML & CSS</li>
+							<li class="language-stack">JS</li>
+						</ul>
+						
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				<!-- Back End Card -->
+					<li class="stack">
+						<div class="stack-title">
+							<h1>Back-End</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/back-end-icon.png">
+						</div>
+						
+						<p>You're experienced with developing and maintaining databases</p>
+
+						<ul class="language-list">
+							<li class="language-stack">Java</li>
+							<li class="language-stack">Python</li>
+							<li class="language-stack">SQL</li>
+						</ul>
+						
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				<!-- Mobile Card -->
+					<li class="stack">
+						<div class="stack-title">
+							<h1>Mobile-Development</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/mobile-dev-icon.png">
+						</div>
+						
+						<p>You're experienced with developing and maintaining databases</p>
+
+						<ul class="language-list">
+							<li class="language-stack">Java</li>
+							<li class="language-stack">React Native</li>
+							<li class="language-stack">Swift</li>
+						</ul>
+						
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				<!-- Machine Learning Card --> 
+					<li class="stack">
+						<div class="stack-title">
+							<h1>Machine Learning</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/machine-icon.png">
+						</div>
+						
+						<p>You're experienced with developing and deploying machine learning models</p>
+
+						<ul class="language-list">
+							<li class="language-stack">R</li>
+							<li class="language-stack">Python</li>
+							<li class="language-stack">JS</li>
+						</ul>
+						
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				<!-- DevOps Card -->
+					<li class="stack">
+						<div class="stack-title">
+							<h1>DevOps</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/devops-icon.png">
+						</div>
+						
+						<p>You're experienced with designing and maintaining network infrastructure</p>
+
+						<ul class="language-list">
+							<li class="language-stack">Ruby</li>
+							<li class="language-stack">Python</li>
+							<li class="language-stack">JS</li>
+						</ul>
+						
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				<!-- Data Science Card --> 
+					<li class="stack">
+						<div class="stack-title">
+							<h1>Data Science</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/data-science-icon.png">
+						</div>
+						
+						<p>You're experienced with designing experiments and building models</p>
+
+						<ul class="language-list">
+							<li class="language-stack">SQL</li>
+							<li class="language-stack">Python</li>
+							<li class="language-stack">Java</li>
+						</ul>
+						
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				<!-- Game Development Card --> 
+					<li class="stack">
+						<div class="stack-title">
+							<h1>Game Development</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/video-game-dev-icon.png">
+						</div>
+						
+						<p>You're experienced with designing and developing video games</p>
+
+						<ul class="language-list">
+							<li class="language-stack">C#</li>
+							<li class="language-stack">C++</li>
+							<li class="language-stack">Java</li>
+						</ul>
+						
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				<!-- Cyber Security Card --> 
+					<li class="stack">
+						<div class="stack-title">
+							<h1>Cyber Security</h1>
+						</div>
+
+						<div class="stack-icon">
+							<img src="./resources/security-icon.png">
+						</div>
+						
+						<p>You're experienced with ensuring the integrity of networks and protecting digital information</p>
+
+						<ul class="language-list">
+							<li class="language-stack">SQL</li>
+							<li class="language-stack">PHP</li>
+							<li class="language-stack">Java</li>
+						</ul>
+						
+						<button class="stack-button">Take the Quiz</button>
+					</li>
+
+				</ul>
+			</div>
+		</content>
+
+	<!-- Third Section -->
+		<content class="about-page">
+			<div class="about-page-title">
+				<h1>About Triplebyte</h1>
+			</div>
+
+			<div class="about-details">
+				<section class="detail">
+					<div class="number-points">
+						<img src="./resources/number-one.png">
+					</div>
+					<p>We give you engineer-specific job filters, not just location or job title.</p>
+				</section>
+
+				<section class="detail">
+					<div class="number-points">
+						<img src="./resources/number-two.png">
+					</div>
+					<p>We help you show your skills, even if you don’t have traditional credentials.</p>
+				</section>
+
+				<section class="detail">
+					<div class="number-points">
+						<img src="./resources/number-three.png">
+					</div>
+					<p>We tell you exactly what companies do (or don’t do) with your application.</p>
+				</section>
+			</div>
+
+			<section class="side-images">
+				<img src="./resources/why-triplebyte.png">
+				<h1 class="img-caption">Go through Triplebyte once, then skip ahead to final interviews with top tech companies. Once you pass, you're accepted for life.</h1>
+				<img class="broken-img" src="./resources/why-triplebyte-2.png"> </span>
+			</section>
+
+			<section class="companies">
+				<h1>Work with Top Tech Companies</h1>
+				<div class="companies-statement">
+					<p>We collaborate with dozens of both large and small tech companies allowing you to personally identify the ones that will be most exciting to you. All allow our pre-screened, pre-matched engineers to skip resume screens.</p>
+				</div>
+
+				<ul class="companies-list">
+					<li class="company">
+						<img src="./resources/companies/adobe.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/asana.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/box.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/color.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/coursera.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/dropbox.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/evernote.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/flexport.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/hipmunk.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/houseparty.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/instacart.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/lever.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/mixpanel.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/opendoor.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/uber.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/quora.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/robinhood.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/rubrik.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/truecar.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/twitch.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/reddit.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/wish.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/zoox.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/upstart.png">
+					</li>
+					<li class="company">
+						<img src="./resources/companies/netflix-icon.png">
+					</li>
+				</ul>
+			</section>
+
+			<section class="google-reviews">
+				<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+				<div class="elfsight-app-358e7109-484e-4e3c-8a5c-ac09d46c2b2b"></div>
+			</section>
+		</content>
+
+	<!-- Salaries -->
+		<content class="salaries">
+			<section class="salary-container">
+				<div class="salary-content">
+					<h1>Learn about your average industry salary</h1>
+					<p>Software Engineers are at a fundamental disadvantage in salary and equity negotiations. They always know less than the hiring manager. We believe this is unfair, so we built this tool to help you negotiate better offers.</p>
+					<div class="center-con">
+						<div class="round">
+						    <div id="cta">
+						       	<span class="arrow primera next "></span>
+						        <span class="arrow segunda next "></span>
+						    </div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</content>
+
+	<!-- Jobs -->
+		<content class="jobs">
+			<div class="job-heading">
+				<h1>Opportunities You Can Expect</h1>
+			</div>
+
+			<ul class="job-listings">
+				<li class="job">
+					<figure class="job-img">
+						<img src="./resources/jobs/apple.png">
+					</figure>
+					<div class="job-content">
+						<h1>Siri Software Engineer, Music</h1>
+						<p>Apple</p>
+					</div>
+				</li>
+
+				<li class="job">
+					<figure class="job-img">
+						<img src="./resources/jobs/snap-inc.png">
+					</figure>
+					<div class="job-content">
+						<h1>Software Engineer, Full Stack</h1>
+						<p>Snap Inc</p>
+					</div>
+				</li>
+
+				<li class="job">
+					<figure class="job-img">
+						<img class="img-rounder" src="./resources/jobs/labs.png">
+					</figure>
+					<div class="job-content">
+						<h1>Web Application Developer</h1>
+						<p>Anonyome Labs</p>
+					</div>
+				</li>
+
+				<li class="job">
+					<figure class="job-img">
+						<img class="img-rounder" src="./resources/jobs/digital8.jpg">
+					</figure>
+					<div class="job-content">
+						<h1>Software Engineer, Front-End</h1>
+						<p>Digital8</p>
+					</div>
+				</li>
+
+				<li class="job">
+					<figure class="job-img">
+						<img class="img-rounder2" src="./resources/jobs/klearnet.jpg">
+					</figure>
+					<div class="job-content">
+						<h1>Cloud Managment, DevOps Engineer</h1>
+						<p>Klearnet Solutions</p>
+					</div>
+				</li>
+
+				<li class="job">
+					<figure class="job-img">
+						<img class="img-rounder" src="./resources/jobs/nexigen.jpg">
+					</figure>
+					<div class="job-content">
+						<h1>Front-End Web Developer</h1>
+						<p>Nexigen</p>
+					</div>
+				</li>
+			</ul>
+
+			<div class="see-more">
+				<button class="see-more-button">See More</button>
+			</div>
+		</content>
+
+	<!-- FAQ -->
+		<content class="faq">
+			<div class="faq-heading">
+				<h1>Our Most Frequent Questions</h1>
+			</div>
+
+			<ul class="faq-stack">
+				<li class="faq-card">
+					<h1>What type of engineers are in your talent pool?</h1>
+					<p>We work primarily with back-end, front-end, full-stack, DevOps, machine learning, mobile, and generalist engineers of all kinds, as well as data science, distributed systems, and data pipeline specialists.</p>
+				</li>
+				<li class="faq-card">
+					<h1>Why should my company use Triplebyte? What companies successfully use Triplebyte?</h1>
+					<p>Our partner companies range from seed-stage startups looking for their first engineer to big tech companies like Apple, Dropbox, and Snap, and their hiring needs are just as wide-ranging. </p>
+				</li>
+				<li class="faq-card">
+					<h1>How do you assess engineers?</h1>
+					<p>Engineers complete various adaptive online quizzes (most quizzes are multiple-choice and some require actually writing code). Trained on over 300,000 engineers.</p>
+				</li>
+			</ul>
+
+			<div class="button-container">
+				<button class="faq-button">
+					Visit Our FAQ
+				</button>
+			</div>
+		</content>
+
+	<!-- About the Team -->
+		<content class="meet-the-team">
+			<div class="team-heading">
+				<h1>Meet Our Team</h1>
+			</div>
+
+			<ul class="team-stack">
+				<li class="member">
+					<figure class="team-members-img">
+							<img class="team-img" src="./resources/steve-jobs.jpg">
+						</figure>
+						<div class="team-content">
+							<h1>Steve Jobs</h1>
+							<h2>CEO, Founder of Triplebyte </h2>
+							<p>Steve was lead video developer at Justin.tv before co-founding Socialcam, which was acquired by Autodesk in 2012 for $60m. He eats persimmons and enjoys cryptography (but not cryptocurrency).</p>
+						</div>
+				</li>
+
+				<li class="member">
+					<figure class="team-members-img">
+							<img class="team-img2" src="./resources/elon-musk.jpg">
+						</figure>
+						<div class="team-content">
+							<h1>Elon Musk</h1>
+							<h2>VP of Growth </h2>
+							<p>Elon previously led product and competitive strategy for LinkedIn's talent solutions business before joining Triplebyte. He enjoys tennis and salsa dancing, and promotes jazz shows at jazzinthebay.org.</p>
+						</div>
+				</li>
+
+				<li class="member">
+					<figure class="team-members-img">
+							<img class="team-img" src="./resources/lachlan.png">
+						</figure>
+						<div class="team-content">
+							<h1>Lachlan Charteris</h1>
+							<h2>Software Engineer</h2>
+							<p>Lachlan left the world of politics and nonprofits for software development, but he's still passionate about civic tech, participatory government, and generally making the world a better place.</p>
+						</div>
+				</li>
+			</ul>
+		</content>
+
+	<!-- Join triplebyte -->
+		<content class="join-triplebyte">
+			<h1 class="join-statement">What are you waiting for? Be part of our future</h1>
+			<button class="join-triplebyte-button">Join Triplebyte</button>
+		</content>
+	</main>
+
+	<footer>
+		<ul class="footer-links">
+			<li class="link">
+				<h1 class="link-heading">For Companies</h1>
+				<p>Triplebyte Screen</p>
+				<p>Pricing</p>
+				<p>Company FAQ</p>
+				<p>Post a Free Job</p>
+			</li>
+
+			<li class="link">
+				<h1 class="link-heading">Triplebyte</h1>
+				<p>About</p>
+				<p>Manifesto</p>
+				<p>Diversity</p>
+				<p>Press</p>
+				<p>Careers</p>
+				<p>Contact</p>
+				<p>FAQs</p>
+			</li>
+
+			<li class="link">
+				<h1 class="link-heading">Job Search</h1>
+				<p>Featured Jobs</p>
+				<p>React Jobs</p>
+				<p>Ruby on Rails Jobs</p>
+				<p>Gold Coast Engineering Jobs</p>
+				<p>Remote Engineering Jobs</p>
+				<p>Machine Learning Jobs</p>
+			</li>
+		</ul>
+
+		<div class="social-media">
+			<img src="./resources/social-media/triplebyte.png">
+			<img src="./resources/social-media/facebook.png">
+			<img src="./resources/social-media/twitter.png">
+
+			<p>Terms and Conditions</p>
+			<p>Privacy Center</p>
+			<p>Privacy Policy</p>
+		</div>
+	</footer>
+
+	<section class="credits">
+		<p>This site has no affiliations with Triplebyte and is purely a resdesign for coding education. Developed by Saeed Salman with the following technologies:</p>
+		<img src="./resources/html.png">
+	</section>
+</body>
+</html>

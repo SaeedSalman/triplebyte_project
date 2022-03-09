@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+	background: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+	background-size: cover;
+	background-repeat:  repeat-x;
+	height: 80px;
+	text-align: center; 
+}
+
+nav a {
+	color: #000 ;
+	font-size: 17px;
+	text-decoration: none;
+    margin: 42px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.title {
+	font-size: 30px; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+.option {
+  background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    red 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.option:before{
+  content: '';
+  background: blue;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.option:hover {
+ background-position: 0;
+ cursor: pointer; 
+}
+
+.option:hover::before{
+  width: 100%;
+}
+
+section h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+section {
+	border: 1px solid black;
+	width: 70%;
+	margin: 50px auto;
+}
+
+section content {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.red p {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: red;
+	padding: 80px 70px 60px 70px; 
+	margin-left: 110px;
+}
+
+.cool-blue p {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: #2d5dcc;
+	padding: 60px;
+	margin-left: 40px;
+}
+
+.purple p {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: purple;
+	padding: 80px 70px 60px 70px; 
+	margin-left: 40px;
+}
+
+.beige p {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: #efd9ca;
+	padding: 60px; 
+	margin-left: 40px;
+}
+
+.beige p {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: #efd9ca;
+	padding: 60px; 
+	margin-left: 40px;
+}
+
+.mint-green {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: #4fe0b0;
+	padding: 45px; 
+	margin-left: 40px;
+}
+
+.nunito-sans {
+	border-left: 3px solid black;
+	color: black;
+	text-align: left;
+	padding: 10px;
+	margin-left: 40px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-heading {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+
