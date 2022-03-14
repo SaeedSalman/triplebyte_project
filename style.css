@@ -766,6 +766,7 @@ button.join-triplebyte-button {
 	border: 1px solid white !important;
 	border-radius: 30px;
 	margin-bottom: 6rem;
+	font-size: 1rem;
 }
 
 button.join-triplebyte-button:hover {
@@ -909,8 +910,8 @@ section.credits img {
 }
 
 	div.social-media img {
-		width: 1.7rem;
-		height: 1.7rem;
+		width: 1.2rem;
+		height: 1.2rem;
 		margin-right: 1rem;
 	}
 
@@ -919,5 +920,12 @@ section.credits img {
 		line-height: 1.5rem;
 	}
 
-}
+	div.social-media p {
+		font-size: 0.5rem;
+	}
 
+	figure.job-img {
+		width: 2.5rem;
+	}
+
+}
